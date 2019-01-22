@@ -1,0 +1,637 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head><link rel=manifest href=/manifest.json>
+    
+
+<head><meta name="generator" content="Hexo 3.8.0"><link rel="manifest" href="/manifest.json">
+    <meta charset="utf-8">
+    <meta name="keywords" content="云计算时代的免费建站, TechQuery website Web JavaScript full-stack developer development coder programmer">
+    <meta name="description" content="云计算看起来更高大上，所以在这个时代网站建设更难了吗？
+不！越分工应该越简单！
+回望“免费空间”的时代，建站不过是“FTP 上传”，而今 HTTPS 证书、SSH 密钥、NGINX 配置、域名备案等等又繁琐又费钱的步骤，真让人掉发！
+有没有">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>云计算时代的免费建站 | TechQuery</title>
+    <link rel="icon" type="image/png" href="/image/WebCell-2.png">
+
+    <link rel="stylesheet" href="https://lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://lib.baomitu.com/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="https://lib.baomitu.com/aos/3.0.0-beta.6/aos.css">
+    <link rel="stylesheet" href="https://lib.baomitu.com/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css">
+    <link rel="stylesheet" href="/css/matery.css">
+    <link rel="stylesheet" href="/css/my.css">
+
+    <script src="https://lib.baomitu.com/jquery/2.2.4/jquery.min.js"></script>
+
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-2017157453269189",
+        enable_page_level_ads: true
+    });
+    </script>
+<link rel="stylesheet" href="/css/prism-atom-dark.css" type="text/css"></head>
+
+</head>
+
+<body>
+
+<header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="container">
+            <div class="nav-wrapper">
+                <div class="brand-logo">
+                    <a href="/" class="waves-effect waves-light">
+                        
+                        <img src="/image/WebCell-0.png" class="logo-img hide-on-small-only">
+                        
+                        <span class="logo-span">TechQuery</span>
+                    </a>
+                </div>
+                <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-navicon"></i></a>
+<ul class="right">
+    
+    <li class="hide-on-med-and-down">
+        <a href="/tags" class="waves-effect waves-light">
+            
+            <i class="fa fa-tags"></i>
+            
+            <span>Tags</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/categories" class="waves-effect waves-light">
+            
+            <i class="fa fa-bookmark"></i>
+            
+            <span>Categories</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/archives" class="waves-effect waves-light">
+            
+            <i class="fa fa-archive"></i>
+            
+            <span>Archives</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/projects" class="waves-effect waves-light">
+            
+            <i class="fa fa-code-fork"></i>
+            
+            <span>Projects</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="https://ppt.baomitu.com/lecturer/10109/" class="waves-effect waves-light">
+            
+            <i class="fa fa-slideshare"></i>
+            
+            <span>Lecture</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="https://codepen.io/tech_query/" class="waves-effect waves-light">
+            
+            <i class="fa fa-code"></i>
+            
+            <span>Snippet</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="https://www.zhihu.com/people/Tech_Query/answers/by_votes" class="waves-effect waves-light">
+            
+            <i class="fa fa-quora"></i>
+            
+            <span>Q & A</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/about" class="waves-effect waves-light">
+            
+            <i class="fa fa-user-circle-o"></i>
+            
+            <span>About</span>
+        </a>
+    </li>
+    
+    <li>
+        <a id="toggleSearch" class="waves-effect waves-light">
+            <i id="searchIcon" class="mdi-action-search"></i>
+        </a>
+    </li>
+
+</ul>
+
+<div class="side-nav" id="mobile-nav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/image/WebCell-0.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">TechQuery</div>
+        <div class="logo-desc">
+            
+            TechQuery, a Web &amp; JavaScript full-stack developer
+            
+        </div>
+    </div>
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li>
+            <a href="/tags" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-tags"></i>
+                
+                Tags
+            </a>
+        </li>
+        
+        <li>
+            <a href="/categories" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-bookmark"></i>
+                
+                Categories
+            </a>
+        </li>
+        
+        <li>
+            <a href="/archives" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-archive"></i>
+                
+                Archives
+            </a>
+        </li>
+        
+        <li>
+            <a href="/projects" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-code-fork"></i>
+                
+                Projects
+            </a>
+        </li>
+        
+        <li>
+            <a href="https://ppt.baomitu.com/lecturer/10109/" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-slideshare"></i>
+                
+                Lecture
+            </a>
+        </li>
+        
+        <li>
+            <a href="https://codepen.io/tech_query/" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-code"></i>
+                
+                Snippet
+            </a>
+        </li>
+        
+        <li>
+            <a href="https://www.zhihu.com/people/Tech_Query/answers/by_votes" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-quora"></i>
+                
+                Q &amp; A
+            </a>
+        </li>
+        
+        <li>
+            <a href="/about" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-user-circle-o"></i>
+                
+                About
+            </a>
+        </li>
+        
+        
+    </ul>
+
+    <div class="social-link"><a href="mailto:shiy2008@gmail.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+    <i class="fa fa-envelope-open"></i>
+</a>
+<a href="https://github.com/TechQuery" class="tooltipped" target="_blank" data-tooltip="访问我的 GitHub" data-position="top" data-delay="50">
+    <i class="fa fa-github"></i>
+</a>
+<a href="https://www.linkedin.com/in/techquery/" class="tooltipped" target="_blank" data-tooltip="领英招募我" data-position="top" data-delay="50">
+    <i class="fa fa-linkedin"></i>
+</a>
+<a href="https://jq.qq.com/?_wv=1027&k=5he1Sw1" target="_blank" class="tooltipped" data-tooltip="QQ: 458784398" data-position="top" data-delay="50">
+    <i class="fa fa-qq"></i>
+</a>
+
+<a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+    <i class="fa fa-rss"></i>
+</a>
+
+</div>
+</div>
+
+            </div>
+        </div>
+
+        
+    </nav>
+</header>
+
+
+
+
+
+<div class="bg-cover post-cover" style="background-image: url('/medias/featureimages/21.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <div class="description center-align post-title">
+                        云计算时代的免费建站
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<main class="container content">
+
+    
+    <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            
+            <div class="article-tag">
+                
+                <a href="/tags/Web/" target="_blank">
+                    <span class="chip bg-color">Web</span>
+                </a>
+                
+                <a href="/tags/cloud/" target="_blank">
+                    <span class="chip bg-color">cloud</span>
+                </a>
+                
+                <a href="/tags/free/" target="_blank">
+                    <span class="chip bg-color">free</span>
+                </a>
+                
+                <a href="/tags/BaaS/" target="_blank">
+                    <span class="chip bg-color">BaaS</span>
+                </a>
+                
+                <a href="/tags/GitHub/" target="_blank">
+                    <span class="chip bg-color">GitHub</span>
+                </a>
+                
+            </div>
+            
+            <div class="post-info">
+                
+                <span class="post-cate">
+                    <i class="fa fa-bookmark fa-fw icon-category"></i>
+                    
+                    <a href="/categories/Development/" class="post-category" target="_blank">
+                        Development
+                    </a>
+                    
+                </span>
+                
+
+                <span class="post-date">
+                    <i class="fa fa-clock-o fa-fw"></i>2019-01-09
+                </span>
+            </div>
+        </div>
+        <hr>
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <p><strong>云计算</strong>看起来更高大上，所以在这个时代<strong>网站建设</strong>更难了吗？</p>
+<p>不！越分工应该越简单！</p>
+<p>回望“免费空间”的时代，建站不过是“FTP 上传”，而今 HTTPS 证书、SSH 密钥、NGINX 配置、域名备案等等又繁琐又费钱的步骤，真让人掉发！</p>
+<p>有没有办法更简单？有，但需要一番主动的探索……</p>
+<h2 id="静态网页"><a href="#静态网页" class="headerlink" title="静态网页"></a>静态网页</h2><p>静态网页托管认准 <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>，需要 <strong>MarkDown 转 HTML</strong> 的推荐 <a href="/development/hello-hexo-travis/">Hexo</a>。</p>
+<h2 id="顶级域名"><a href="#顶级域名" class="headerlink" title="顶级域名"></a>顶级域名</h2><p><a href="https://www.freenom.com/" target="_blank" rel="noopener">Freenom</a> 托管的顶级域名后缀简短、申请方便，Google 账号一键登录后即可搜索可用域名。一次最多<strong>免费租用 12 个月</strong>，到期前有电邮提醒续期，可<strong>免费续租 12 个月</strong>。若忘了续租，系统就认为是有价值的域名，就只能美刀去买了。</p>
+<h2 id="HTTPS-证书"><a href="#HTTPS-证书" class="headerlink" title="HTTPS 证书"></a>HTTPS 证书</h2><p><a href="https://www.cloudflare.com/?r=1" target="_blank" rel="noopener">CloudFlare</a> 是全球著名的域名、CDN 服务提供商，<strong>Web 前端界</strong>国外使用最多、国内借鉴最多的 <a href="https://cdnjs.com/" target="_blank" rel="noopener">CDNJS</a> 便是它赞助的。用了它，<strong>免费 HTTPS 证书</strong>、<strong>DNS 管理</strong>、<strong>静态资源 CDN</strong> 一次性搞定！以后还可以用它的收费 <strong>DDoS 攻击防御</strong>，久经骇客攻击考验~</p>
+<p>注册账号并登录后，即可一键导入<strong>域名基本配置</strong>，再去 Freenom 后台把 Name server 重定向过来，就可以用 CloudFlare 更先进的域名管理后台了。至于 HTTPS 配置，直接参考<a href="https://blog.cloudflare.com/secure-and-fast-github-pages-with-cloudflare/#step2settingupourdns" target="_blank" rel="noopener">官方博文</a>，配好后要等一会儿才能让国内 DNS 查到。</p>
+<h2 id="CDN-加速"><a href="#CDN-加速" class="headerlink" title="CDN 加速"></a>CDN 加速</h2><p>既然用了 CF，为何还要自己做 CDN？因为 CF 在中国大陆与<em>百毒熊厂</em>合作业务，我是极端恶心<em>李厂长夫妇</em>的尿性的，只用 <strong>CloudFlare 海外版</strong>，有受众在天朝就得另辟蹊径。</p>
+<p>我最终选用国内 <strong>BaaS 云服务</strong>龙头 <a href="https://leancloud.cn/" target="_blank" rel="noopener">LeanCloud</a>：</p>
+<ol>
+<li><p>LeanCloud 云服务在天朝 <strong>Ping 延时</strong> &lt; 100ms，并能在<strong>应用管理后台</strong>看到流量响应统计</p>
+</li>
+<li><p><strong>应用二级域名</strong>是免费、无需备案的，在每个 HTML 文件 <code>&lt;head /&gt;</code> 标签最前面加个 <code>&lt;base href=&quot;https://my-app.leanapp.cn/&quot;&gt;</code>，<strong>用顶级域名打开页面、用二级域名加载外置资源</strong>二者各司其职</p>
+</li>
+<li><p>每个<strong>云应用</strong>都能启动一个<strong>免费容器实例</strong>，虽然每天强制休眠 6 小时，但对绝大多数小网站够用，实在不够也可开个<strong>￥1/日的生产实例</strong></p>
+</li>
+<li><p>底层基于 <a href="https://www.docker.com/" target="_blank" rel="noopener">Docker</a> 支持标准的 Node.JS、Python、Java、PHP、C# 项目，<strong>纯 Web 前端项目</strong>只需用 NPM 装个<a href="https://tech-query.me/KoApache/">命令行版 Web 服务器包</a>即可架站</p>
+</li>
+<li><p><strong>应用代码</strong>还能直接用 <a href="https://developer.github.com/webhooks/" target="_blank" rel="noopener">Web hook</a> 从一个 <strong>Git URL</strong> 拉取并自动部署</p>
+</li>
+<li><p>官方封装的<strong>数据存储</strong>、<strong>手机短信</strong>、<strong>即时通讯</strong>、<strong>消息推送</strong>、<strong>游戏客户端引擎</strong>等云服务也有方便的 API、SDK，为今后更多需求的开发提供保障</p>
+</li>
+</ol>
+<h2 id="文件存储"><a href="#文件存储" class="headerlink" title="文件存储"></a>文件存储</h2><p>虽说很多人推荐七牛云的免费 10 GB 对象存储，但它必须备案域名才能下载，随机测试域名只能用 30 天……</p>
+<p>心灰意冷之际却搜到来抢市场的<strong>腾讯云</strong> —— <a href="https://cloud.tencent.com/document/product/436/6240" target="_blank" rel="noopener">免费 50 GB</a> <strong>对象存储</strong>，支持不限期<a href="https://cloud.tencent.com/document/product/436/6224" target="_blank" rel="noopener">固定子域名</a>！</p>
+<hr>
+<p>【整套方案的样板项目】<a href="https://github.com/FreeCodeCamp-Chengdu/WFE-Conf" target="_blank" rel="noopener">https://github.com/FreeCodeCamp-Chengdu/WFE-Conf</a></p>
+
+            </div>
+            <hr>
+
+            
+
+            <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+
+<div id="article-share">
+    
+    <div class="social-share" data-disabled="qzone" data-wechat-qrcode-helper="<p>微信里点“发现”->“扫一扫”二维码便可查看分享。</p>"></div>
+    
+</div>
+
+<script src="/libs/share/js/social-share.min.js"></script>
+
+            <div class="reprint">
+                <p>
+                    <span class="reprint-tip">转载请注明: </span>
+                    <a href="https://tech-query.me" class="b-link-green">TechQuery</a>
+                    <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
+                    <a href="/development/free-web-site/" class="b-link-green">云计算时代的免费建站</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    
+
+    
+
+    
+        <div class="disqus-card card" data-aos="fade-up">
+    <div id="disqus_thread" class="card-content">
+        <noscript>Please enable JavaScript to view the
+            <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+    </div>
+</div>
+
+<script type="text/javascript">
+    disqus_config = function () {
+        this.page.url = 'https://tech-query.me/development/free-web-site/';
+        this.page.identifier = '/development/free-web-site/';
+        this.page.title = '云计算时代的免费建站';
+    };
+    let disqus_shortname = 'tech-query';
+
+    (function () { // DON'T EDIT BELOW THIS LINE
+        let d = document, s = d.createElement('script');
+        // 如：s.src = 'https://blinkfox.disqus.com/embed.js';
+        s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">上一篇</div>
+            <div class="card">
+                <a href="/development/wiki-on-git/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="Git 驱动的百科网站">
+                        
+                        <span class="card-title">Git 驱动的百科网站</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary">NPM 一把梭经过《Hello Hexo &amp; Travis !》的折腾，觉得 Hexo + GitHub Pages + Travis 整下来还是不够一键化，于是基于 WebCell 项目生成器的成功经验又开发了一个 Hexo Wi</div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-01-17
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Development/" class="post-category" target="_blank">
+                                    Development
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Web/" target="_blank">
+                        <span class="chip bg-color">Web</span>
+                    </a>
+                    
+                    <a href="/tags/one-key/" target="_blank">
+                        <span class="chip bg-color">one-key</span>
+                    </a>
+                    
+                    <a href="/tags/git/" target="_blank">
+                        <span class="chip bg-color">git</span>
+                    </a>
+                    
+                    <a href="/tags/wiki/" target="_blank">
+                        <span class="chip bg-color">wiki</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">下一篇</div>
+            <div class="card">
+                <a href="/maintenance/one-key-software-installation/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="装机必备软件一键安装">
+                        
+                        <span class="card-title">装机必备软件一键安装</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary">缘起接着《编程入门之开发工具一键安装》的思路，电脑维修一键装机也可用 Chocolatey 实现！
+回想我 2008~10 年在川大飞扬做骨干技术员时还没这么好的东西呢，PowerShell 也还没普及，要用 CMD、WSH/JS 绞尽脑汁</div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-12-31
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Maintenance/" class="post-category" target="_blank">
+                                    Maintenance
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Chocolatey/" target="_blank">
+                        <span class="chip bg-color">Chocolatey</span>
+                    </a>
+                    
+                    <a href="/tags/one-key/" target="_blank">
+                        <span class="chip bg-color">one-key</span>
+                    </a>
+                    
+                    <a href="/tags/Windows/" target="_blank">
+                        <span class="chip bg-color">Windows</span>
+                    </a>
+                    
+                    <a href="/tags/software/" target="_blank">
+                        <span class="chip bg-color">software</span>
+                    </a>
+                    
+                    <a href="/tags/install/" target="_blank">
+                        <span class="chip bg-color">install</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+</div>
+
+
+    
+
+</main>
+
+
+<footer class="page-footer bg-color">
+    <div class="container row center-align">
+        <div class="col s12 m8 l8 copy-right">
+            本站由 &copy;<a href="https://tech-query.me/" target="_blank">TechQuery</a>
+            基于 <a href="https://hexo.io/" target="_blank">Hexo</a> 
+            采用<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">
+                hexo-theme-matery
+            </a>的主题搭建.
+        </div>
+        <div class="col s12 m4 l4 social-link"><a href="mailto:shiy2008@gmail.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+    <i class="fa fa-envelope-open"></i>
+</a>
+<a href="https://github.com/TechQuery" class="tooltipped" target="_blank" data-tooltip="访问我的 GitHub" data-position="top" data-delay="50">
+    <i class="fa fa-github"></i>
+</a>
+<a href="https://www.linkedin.com/in/techquery/" class="tooltipped" target="_blank" data-tooltip="领英招募我" data-position="top" data-delay="50">
+    <i class="fa fa-linkedin"></i>
+</a>
+<a href="https://jq.qq.com/?_wv=1027&k=5he1Sw1" target="_blank" class="tooltipped" data-tooltip="QQ: 458784398" data-position="top" data-delay="50">
+    <i class="fa fa-qq"></i>
+</a>
+
+<a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+    <i class="fa fa-rss"></i>
+</a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+<!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title">搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input" autofocus>
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+    searchFunc("/" + "search.xml", 'searchInput', 'searchResult');
+</script>
+<!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fa fa-angle-up"></i>
+    </a>
+</div>
+
+
+<script src="https://lib.baomitu.com/materialize/0.100.2/js/materialize.min.js"></script>
+<script src="https://lib.baomitu.com/masonry/4.2.2/masonry.pkgd.min.js"></script>
+<script src="https://lib.baomitu.com/aos/3.0.0-beta.6/aos.js"></script>
+<script src="https://lib.baomitu.com/scrollprogress/3.0.2/scrollProgress.min.js"></script>
+<script src="https://lib.baomitu.com/lightgallery/1.6.11/js/lightgallery-all.min.js"></script>
+
+<script src="/libs/others/clicklove.js"></script>
+
+<script src="/js/matery.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132866291-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'UA-132866291-1');
+</script>
+
+
+<span id="cnzz_stat_icon_1275855156" hidden></span>
+<script src="//s23.cnzz.com/z_stat.php?id=1275855156&amp;online=1&amp;show=line"></script>
+<script>if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js?t=1548179065669')
+    .then(function () {console.log('ServiceWorker Register Successfully.')})
+    .catch(function (e) {console.error(e)});
+}
+</script></body>
+</html>

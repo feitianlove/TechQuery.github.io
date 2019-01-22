@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>TechQuery</title>
+  
+  <subtitle>Web &amp; JavaScript</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://tech-query.me/"/>
+  <updated>2019-01-22T17:44:06.004Z</updated>
+  <id>https://tech-query.me/</id>
+  
+  <author>
+    <name>TechQuery</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaScript 一句话总结</title>
+    <link href="https://tech-query.me/programming/javascript-in-one-word/"/>
+    <id>https://tech-query.me/programming/javascript-in-one-word/</id>
+    <published>2019-01-22T17:44:06.004Z</published>
+    <updated>2019-01-22T17:44:06.004Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;JavaScript
+        
+      
+    
+    </summary>
+    
+      <category term="Programming" scheme="https://tech-query.me/categories/Programming/"/>
+    
+    
+      <category term="one-word" scheme="https://tech-query.me/tags/one-word/"/>
+    
+      <category term="JavaScript" scheme="https://tech-query.me/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello Hexo &amp; Travis !</title>
+    <link href="https://tech-query.me/development/hello-hexo-travis/"/>
+    <id>https://tech-query.me/development/hello-hexo-travis/</id>
+    <published>2019-01-22T17:44:06.004Z</published>
+    <updated>2019-01-22T17:44:06.004Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;静态网站生成器&quot;&gt;&lt;a href=&quot;#静态网站生成器&quot; class=&quot;headerlink&quot; title=&quot;静态网站生成器&quot;&gt;&lt;/a&gt;静态网站生成器&lt;/h2&gt;&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="Development" scheme="https://tech-query.me/categories/Development/"/>
+    
+    
+      <category term="Hexo" scheme="https://tech-query.me/tags/Hexo/"/>
+    
+      <category term="Travis" scheme="https://tech-query.me/tags/Travis/"/>
+    
+      <category term="Azure" scheme="https://tech-query.me/tags/Azure/"/>
+    
+      <category term="DevOps" scheme="https://tech-query.me/tags/DevOps/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>滑雪与武术</title>
+    <link href="https://tech-query.me/skiing-kongfu/"/>
+    <id>https://tech-query.me/skiing-kongfu/</id>
+    <published>2019-01-22T17:44:06.004Z</published>
+    <updated>2019-01-22T17:44:06.004Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;一匹来自北方的狼，在西南腹地的雪山上学会了滑雪…… 😂&lt;/p&gt;
+&lt;h2 id=&quot;笨手笨脚&quot;&gt;&lt;a href=&quot;#笨手笨脚&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Sport" scheme="https://tech-query.me/categories/Sport/"/>
+    
+    
+      <category term="滑雪" scheme="https://tech-query.me/tags/%E6%BB%91%E9%9B%AA/"/>
+    
+      <category term="武术" scheme="https://tech-query.me/tags/%E6%AD%A6%E6%9C%AF/"/>
+    
+      <category term="咏春" scheme="https://tech-query.me/tags/%E5%92%8F%E6%98%A5/"/>
+    
+      <category term="one-word" scheme="https://tech-query.me/tags/one-word/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>“开源运动”一句话说清</title>
+    <link href="https://tech-query.me/community/open-source-in-one-word/"/>
+    <id>https://tech-query.me/community/open-source-in-one-word/</id>
+    <published>2019-01-22T17:44:06.004Z</published>
+    <updated>2019-01-22T17:44:06.004Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;【开源】是一种基于&lt;strong&gt;国际互联网&lt;/strong&gt;的全球性&lt;strong&gt;社会化协作&lt;/strong&gt;模式，是在创造性工作中探索、实践民主的运动。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;开源
+        
+      
+    
+    </summary>
+    
+      <category term="Community" scheme="https://tech-query.me/categories/Community/"/>
+    
+    
+      <category term="one-word" scheme="https://tech-query.me/tags/one-word/"/>
+    
+      <category term="open-source" scheme="https://tech-query.me/tags/open-source/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>田窗里面开道场</title>
+    <link href="https://tech-query.me/development/docker-in-windows/"/>
+    <id>https://tech-query.me/development/docker-in-windows/</id>
+    <published>2019-01-21T12:31:18.000Z</published>
+    <updated>2019-01-22T17:44:06.004Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;每次大家一谈起 Docker，Windows 总能成为“黑点”，也不知道那些“果珍”哪来的自信……&lt;/p&gt;
+&lt;p&gt;别跟我说“不好装”！老子抄起 PowerShell 就是一把梭！&lt;strong&gt;Docker
+        
+      
+    
+    </summary>
+    
+      <category term="Development" scheme="https://tech-query.me/categories/Development/"/>
+    
+    
+      <category term="Docker" scheme="https://tech-query.me/tags/Docker/"/>
+    
+      <category term="Chocolatey" scheme="https://tech-query.me/tags/Chocolatey/"/>
+    
+      <category term="one-key" scheme="https://tech-query.me/tags/one-key/"/>
+    
+      <category term="Windows" scheme="https://tech-query.me/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git 驱动的百科网站</title>
+    <link href="https://tech-query.me/development/wiki-on-git/"/>
+    <id>https://tech-query.me/development/wiki-on-git/</id>
+    <published>2019-01-16T19:35:59.000Z</published>
+    <updated>2019-01-22T17:44:06.004Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;NPM-一把梭&quot;&gt;&lt;a href=&quot;#NPM-一把梭&quot; class=&quot;headerlink&quot; title=&quot;NPM 一把梭&quot;&gt;&lt;/a&gt;NPM 一把梭&lt;/h2&gt;&lt;p&gt;经过&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="Development" scheme="https://tech-query.me/categories/Development/"/>
+    
+    
+      <category term="Web" scheme="https://tech-query.me/tags/Web/"/>
+    
+      <category term="one-key" scheme="https://tech-query.me/tags/one-key/"/>
+    
+      <category term="git" scheme="https://tech-query.me/tags/git/"/>
+    
+      <category term="wiki" scheme="https://tech-query.me/tags/wiki/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>云计算时代的免费建站</title>
+    <link href="https://tech-query.me/development/free-web-site/"/>
+    <id>https://tech-query.me/development/free-web-site/</id>
+    <published>2019-01-08T17:40:00.000Z</published>
+    <updated>2019-01-22T17:44:06.004Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;云计算&lt;/strong&gt;看起来更高大上，所以在这个时代&lt;strong&gt;网站建设&lt;/strong&gt;更难了吗？&lt;/p&gt;
+&lt;p&gt;不！越分工应该越简单！&lt;/p&gt;
+&lt;p&gt;回望“免费空间”的时代，建站不过是“FTP 上传”，而今 HTTPS 证书、SSH
+        
+      
+    
+    </summary>
+    
+      <category term="Development" scheme="https://tech-query.me/categories/Development/"/>
+    
+    
+      <category term="Web" scheme="https://tech-query.me/tags/Web/"/>
+    
+      <category term="cloud" scheme="https://tech-query.me/tags/cloud/"/>
+    
+      <category term="free" scheme="https://tech-query.me/tags/free/"/>
+    
+      <category term="BaaS" scheme="https://tech-query.me/tags/BaaS/"/>
+    
+      <category term="GitHub" scheme="https://tech-query.me/tags/GitHub/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>装机必备软件一键安装</title>
+    <link href="https://tech-query.me/maintenance/one-key-software-installation/"/>
+    <id>https://tech-query.me/maintenance/one-key-software-installation/</id>
+    <published>2018-12-31T13:53:09.000Z</published>
+    <updated>2019-01-22T17:44:06.004Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;缘起&quot;&gt;&lt;a href=&quot;#缘起&quot; class=&quot;headerlink&quot; title=&quot;缘起&quot;&gt;&lt;/a&gt;缘起&lt;/h2&gt;&lt;p&gt;接着&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="Maintenance" scheme="https://tech-query.me/categories/Maintenance/"/>
+    
+    
+      <category term="Chocolatey" scheme="https://tech-query.me/tags/Chocolatey/"/>
+    
+      <category term="one-key" scheme="https://tech-query.me/tags/one-key/"/>
+    
+      <category term="Windows" scheme="https://tech-query.me/tags/Windows/"/>
+    
+      <category term="software" scheme="https://tech-query.me/tags/software/"/>
+    
+      <category term="install" scheme="https://tech-query.me/tags/install/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>编程入门之开发工具一键安装</title>
+    <link href="https://tech-query.me/development/coder-start-kit/"/>
+    <id>https://tech-query.me/development/coder-start-kit/</id>
+    <published>2018-11-17T12:54:00.000Z</published>
+    <updated>2019-01-22T17:44:06.004Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;编程开头难&quot;&gt;&lt;a href=&quot;#编程开头难&quot; class=&quot;headerlink&quot; title=&quot;编程开头难&quot;&gt;&lt;/a&gt;编程开头难&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;难倒编程小白的第一件事&lt;/em&gt;&lt;/strong&gt; 恐怕是“安装开发工具”，即便是很多
+        
+      
+    
+    </summary>
+    
+      <category term="Development" scheme="https://tech-query.me/categories/Development/"/>
+    
+    
+      <category term="Chocolatey" scheme="https://tech-query.me/tags/Chocolatey/"/>
+    
+      <category term="HomeBrew" scheme="https://tech-query.me/tags/HomeBrew/"/>
+    
+      <category term="PowerShell" scheme="https://tech-query.me/tags/PowerShell/"/>
+    
+      <category term="one-key" scheme="https://tech-query.me/tags/one-key/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Deepin 15.5 使用体验</title>
+    <link href="https://tech-query.me/maintenance/deepin-15.5/"/>
+    <id>https://tech-query.me/maintenance/deepin-15.5/</id>
+    <published>2018-04-02T14:28:00.000Z</published>
+    <updated>2019-01-22T17:44:06.004Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;硬盘真机安装&quot;&gt;&lt;a href=&quot;#硬盘真机安装&quot; class=&quot;headerlink&quot; title=&quot;硬盘真机安装&quot;&gt;&lt;/a&gt;硬盘真机安装&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="Maintenance" scheme="https://tech-query.me/categories/Maintenance/"/>
+    
+    
+      <category term="Linux" scheme="https://tech-query.me/tags/Linux/"/>
+    
+      <category term="Deepin" scheme="https://tech-query.me/tags/Deepin/"/>
+    
+      <category term="system" scheme="https://tech-query.me/tags/system/"/>
+    
+      <category term="software" scheme="https://tech-query.me/tags/software/"/>
+    
+      <category term="bug" scheme="https://tech-query.me/tags/bug/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《红海行动》红动我心</title>
+    <link href="https://tech-query.me/operation-red-sea/"/>
+    <id>https://tech-query.me/operation-red-sea/</id>
+    <published>2018-03-08T16:00:00.000Z</published>
+    <updated>2019-01-22T17:44:06.004Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;　　戊戌狗年前，卧床刷豆瓣。若不是“林超贤”这个名字，《红海行动》无论从题目、海报、主演上，都很容易从我的指尖划过。点进影片详情页，“《湄公河行动》升级版”、“比《战狼２》还过瘾”、“真实事件改编”一下子吊起了我的胃口 ——
+        
+      
+    
+    </summary>
+    
+      <category term="Movie" scheme="https://tech-query.me/categories/Movie/"/>
+    
+    
+      <category term="military" scheme="https://tech-query.me/tags/military/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>22 行 JS 写个图片格式转换器</title>
+    <link href="https://tech-query.me/programming/image-format-converter/"/>
+    <id>https://tech-query.me/programming/image-format-converter/</id>
+    <published>2018-03-06T16:17:00.000Z</published>
+    <updated>2019-01-22T17:44:06.004Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;【原文链接】&lt;a href=&quot;https://my.oschina.net/TechQuery/blog/1630721&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Programming" scheme="https://tech-query.me/categories/Programming/"/>
+    
+    
+      <category term="image" scheme="https://tech-query.me/tags/image/"/>
+    
+      <category term="format" scheme="https://tech-query.me/tags/format/"/>
+    
+      <category term="converter" scheme="https://tech-query.me/tags/converter/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>北欧、日式混搭风 —— 森岩居</title>
+    <link href="https://tech-query.me/nordic-japanese-style-home/"/>
+    <id>https://tech-query.me/nordic-japanese-style-home/</id>
+    <published>2017-07-29T17:35:00.000Z</published>
+    <updated>2019-01-22T17:44:06.004Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;房&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;地&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;墙&lt;/th&gt;
+&lt;th
+        
+      
+    
+    </summary>
+    
+      <category term="Design" scheme="https://tech-query.me/categories/Design/"/>
+    
+    
+      <category term="design" scheme="https://tech-query.me/tags/design/"/>
+    
+      <category term="home" scheme="https://tech-query.me/tags/home/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【体验】室内设计 Web 编辑器</title>
+    <link href="https://tech-query.me/interior-design-web-editor/"/>
+    <id>https://tech-query.me/interior-design-web-editor/</id>
+    <published>2017-06-30T10:38:00.000Z</published>
+    <updated>2019-01-22T17:44:06.004Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;品牌&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;账号体系&lt;/th&gt;
+&lt;th
+        
+      
+    
+    </summary>
+    
+      <category term="Product" scheme="https://tech-query.me/categories/Product/"/>
+    
+    
+      <category term="design" scheme="https://tech-query.me/tags/design/"/>
+    
+      <category term="Web" scheme="https://tech-query.me/tags/Web/"/>
+    
+      <category term="editor" scheme="https://tech-query.me/tags/editor/"/>
+    
+      <category term="cloud" scheme="https://tech-query.me/tags/cloud/"/>
+    
+      <category term="SaaS" scheme="https://tech-query.me/tags/SaaS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【入门】ZeroNet —— 更接近 互联网的本质</title>
+    <link href="https://tech-query.me/community/connect-zero-net/"/>
+    <id>https://tech-query.me/community/connect-zero-net/</id>
+    <published>2017-05-24T10:05:00.000Z</published>
+    <updated>2019-01-22T17:44:06.004Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;一键安装&quot;&gt;&lt;a href=&quot;#一键安装&quot; class=&quot;headerlink&quot; title=&quot;一键安装&quot;&gt;&lt;/a&gt;一键安装&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://zeronet.io/&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Community" scheme="https://tech-query.me/categories/Community/"/>
+    
+    
+      <category term="Web" scheme="https://tech-query.me/tags/Web/"/>
+    
+      <category term="Internet" scheme="https://tech-query.me/tags/Internet/"/>
+    
+      <category term="ZeroNet" scheme="https://tech-query.me/tags/ZeroNet/"/>
+    
+      <category term="P2P" scheme="https://tech-query.me/tags/P2P/"/>
+    
+      <category term="GFW" scheme="https://tech-query.me/tags/GFW/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ReadMe</title>
+    <link href="https://tech-query.me/readme/"/>
+    <id>https://tech-query.me/readme/</id>
+    <published>2016-09-02T06:30:00.000Z</published>
+    <updated>2019-01-22T17:44:06.004Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;南漂一卒&quot;&gt;&lt;a href=&quot;#南漂一卒&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Profile" scheme="https://tech-query.me/categories/Profile/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Intel XDK 跨平台 App 开发初体验</title>
+    <link href="https://tech-query.me/development/intel-xdk-preview/"/>
+    <id>https://tech-query.me/development/intel-xdk-preview/</id>
+    <published>2016-06-21T08:32:00.000Z</published>
+    <updated>2019-01-22T17:44:06.004Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;　　用 &lt;strong&gt;HTML/CSS/JavaScript&lt;/strong&gt; 进行&lt;strong&gt;移动端 App 跨平台开发&lt;/strong&gt;的开源旗手非 &lt;a href=&quot;http://phonegap.com/&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Development" scheme="https://tech-query.me/categories/Development/"/>
+    
+    
+      <category term="Web" scheme="https://tech-query.me/tags/Web/"/>
+    
+      <category term="Intel" scheme="https://tech-query.me/tags/Intel/"/>
+    
+      <category term="SDK" scheme="https://tech-query.me/tags/SDK/"/>
+    
+      <category term="IDE" scheme="https://tech-query.me/tags/IDE/"/>
+    
+      <category term="PhoneGap" scheme="https://tech-query.me/tags/PhoneGap/"/>
+    
+      <category term="Cordova" scheme="https://tech-query.me/tags/Cordova/"/>
+    
+      <category term="Mobile" scheme="https://tech-query.me/tags/Mobile/"/>
+    
+      <category term="Software" scheme="https://tech-query.me/tags/Software/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>再战“所见即所得”富文本编辑器（附 原创工具）</title>
+    <link href="https://tech-query.me/programming/rich-text-editor-hacker/"/>
+    <id>https://tech-query.me/programming/rich-text-editor-hacker/</id>
+    <published>2016-03-16T09:52:00.000Z</published>
+    <updated>2019-01-22T17:44:06.004Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;未尽的事业&quot;&gt;&lt;a href=&quot;#未尽的事业&quot; class=&quot;headerlink&quot; title=&quot;未尽的事业&quot;&gt;&lt;/a&gt;未尽的事业&lt;/h2&gt;&lt;p&gt;2014年底，我为了搞定 &lt;strong&gt;电邮签名档&lt;/strong&gt; 做了次&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="Programming" scheme="https://tech-query.me/categories/Programming/"/>
+    
+    
+      <category term="editor" scheme="https://tech-query.me/tags/editor/"/>
+    
+      <category term="rich-text" scheme="https://tech-query.me/tags/rich-text/"/>
+    
+      <category term="injection" scheme="https://tech-query.me/tags/injection/"/>
+    
+      <category term="hacker" scheme="https://tech-query.me/tags/hacker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【原创】Docker LAMP 入门</title>
+    <link href="https://tech-query.me/development/docker-lamp/"/>
+    <id>https://tech-query.me/development/docker-lamp/</id>
+    <published>2015-11-16T19:54:00.000Z</published>
+    <updated>2019-01-22T17:44:06.004Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;LAMP 服务器套件&lt;/strong&gt;（Linux + Apache + MySQL + PHP）早已成为 &lt;strong&gt;Web 应用开发者&lt;/strong&gt;
+        
+      
+    
+    </summary>
+    
+      <category term="Development" scheme="https://tech-query.me/categories/Development/"/>
+    
+    
+      <category term="cloud" scheme="https://tech-query.me/tags/cloud/"/>
+    
+      <category term="Docker" scheme="https://tech-query.me/tags/Docker/"/>
+    
+      <category term="LAMP" scheme="https://tech-query.me/tags/LAMP/"/>
+    
+      <category term="server" scheme="https://tech-query.me/tags/server/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【爱之深】Linux Deepin 2014 试用札记</title>
+    <link href="https://tech-query.me/maintenance/deepin-2014/"/>
+    <id>https://tech-query.me/maintenance/deepin-2014/</id>
+    <published>2015-02-28T07:26:00.000Z</published>
+    <updated>2019-01-22T17:44:06.004Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;【原文链接】&lt;a href=&quot;https://my.oschina.net/TechQuery/blog/380778&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Maintenance" scheme="https://tech-query.me/categories/Maintenance/"/>
+    
+    
+      <category term="Linux" scheme="https://tech-query.me/tags/Linux/"/>
+    
+      <category term="Deepin" scheme="https://tech-query.me/tags/Deepin/"/>
+    
+      <category term="system" scheme="https://tech-query.me/tags/system/"/>
+    
+      <category term="software" scheme="https://tech-query.me/tags/software/"/>
+    
+      <category term="bug" scheme="https://tech-query.me/tags/bug/"/>
+    
+  </entry>
+  
+</feed>
